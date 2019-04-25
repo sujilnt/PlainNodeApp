@@ -1,2 +1,2 @@
-# plainNodeApp
+# PlainNodeApp
 A python Crash Course
