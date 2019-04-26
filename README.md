@@ -11,3 +11,6 @@
 7)  In the background , workes perform all the check at the appropriate times and send the alerts to the users when a check changes its state from "up" to "down" or visa versa .
 
 ```
+
+
+`curl localhost: 3000`
