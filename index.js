@@ -27,7 +27,8 @@ const server= createServer((request,response)=>{
     console.log("trimmed Path: \n", trimmedpath); 
     console.log("request", request.method.toLowerCase()); // accessing method like GET Post 
     console.log("query params", parseUrl.query); 
-    console.log("request received  "+ request.rawHeaders, typeof(request.headers));
+    console.log("request received  "+ request.rawHeaders, typeof(request.rawHeaders));
+    console.log("request received  "+ JSON.stringify(request.headers), typeof(request.headers));
 });
 
 // listing th e server and have it listen on port 300 
